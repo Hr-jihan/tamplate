@@ -87,7 +87,7 @@ nav .menu ul li span{
 
             /* Homepage starts here  */
 
-.homepage{
+#banner{
     width: 100%;
     height:580px;
     background-color: #e0edff;
@@ -159,38 +159,38 @@ nav .menu ul li span{
             /* Homepage ends here  */
 
             /* About starts here */
-.about{
+#about{
     height:660px;
     padding-top: 100px;
     margin-top:20px;
 }            
-.about .text{
+#about .text{
     width: 50%;
     color: #0f2f44;
 }            
-.about .picture img{
+#about .picture img{
     width:100%;
     padding: 20px 0;
     display: block;
 }           
-.about .text .tl1{
+#about .text .tl1{
     font-size: 14px;
 }           
-.about .text .tl2{
+#about .text .tl2{
     font-family: 'Abril Fatface', cursive;
     font-size: 32px;
 
 }           
-.about .text .tl3{
+#about .text .tl3{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 30px; 
 }           
-.about .text ul{
+#about .text ul{
     margin-left: 20px;
     line-height: 40px;
 }
-.about .text button{
+#about .text button{
     padding: 17px;
     border-radius: 5px;
     background:white ;
@@ -202,7 +202,7 @@ nav .menu ul li span{
     transition: 0.5s;
 
 }
-.about .text button:hover{
+#about .text button:hover{
     background: #ffc712;
 
 }
@@ -211,15 +211,15 @@ nav .menu ul li span{
 
             /* our skills starts here  */
 
-.skills{
+#skills{
     width: 100%;
     height:490px ;
     margin-top: 100px;
 }
-.skills .container{
+#skills .container{
     width: 1300px;
 }
-.skills .container .row{
+#skills .container .row{
    display: flex; 
    flex-wrap: wrap;
 }
@@ -239,16 +239,16 @@ nav .menu ul li span{
     font-size: 16px;
 }
 
-.skills .container .row .bgimg{
+#skills .container .row .bgimg{
     width: 60%;
 }
-.skills .container .row .bgimg img{
+#skills .container .row .bgimg img{
     height: 480px;
     width:90%;
     margin-top: 15px;
     margin-right: 20px;
 }
-.skills .container .row .prograssive-bar{
+#skills .container .row .prograssive-bar{
     height:490px;
     width:40%;
     text-align: right;
@@ -351,35 +351,35 @@ nav .menu ul li span{
 
 
             /* Our services starts here  */
-.services{
+#services{
     width: 100%;
     height: 422px;
     background:#f5f5f5 ;
     margin-top: 100px;
 
 }
-.services .text{
+#services .text{
     width: 100%;
     height: 140px;
     text-align: center; 
     padding-top:100px ;
     color:#0f2f44;
 }
-.services .text .pl1{
+#services .text .pl1{
     font-weight: 500;
     font-size: 14px;
 }
-.services .text .pl2{
+#services .text .pl2{
     font-family: 'Abril Fatface', cursive;
     font-size: 32px;
 }
-.services .box{
+#services .box{
     display: flex;
     justify-content: center;
     gap: 30px;
     position: relative;
 }
-.services .box .box1{
+#services .box .box1{
     width: 370px;
     height: 180px;
     background: #ededed;
@@ -393,22 +393,22 @@ nav .menu ul li span{
     right:-15px;
 }
 
-.services .box .box1 .logo{
+#services .box .box1 .logo{
     width: 120px;
     height: 100%;
     padding: 60px 15px 40px 30px;
 }
-.services .box .box1 .lika{
+#services .box .box1 .lika{
     width: 250px;
     height: 100%;
     text-align:left;
     padding-top:10%;
 }
-.services .box .box1 .lika .nl1{
+#services .box .box1 .lika .nl1{
     font-weight: 550;
     font-size: 20px;
 }
-.services .box .box1 .lika .nl2{
+#services .box .box1 .lika .nl2{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
@@ -421,11 +421,11 @@ nav .menu ul li span{
     height: 180px;
     background:#0f2f44;
     position: absolute; 
-    opacity:0 ;
+    opacity:0;
     color: #fff9e6;
-    left:-15px;
     z-index: 2;
     transition: 0.5;
+    left: 15px;
 }
 .boxhvr2{
     width: 370px;
@@ -466,6 +466,7 @@ nav .menu ul li span{
     margin-top:10%;
     
 }
+
 .boxhvr1:hover{
     opacity: 5;
 }
@@ -482,128 +483,131 @@ nav .menu ul li span{
 
 
         /* our portpolio starts here */
-.portpolio{
-    height: 635px;
-    width: 100%;
-    margin-top: 100px;
-    color:#0f2f44;
-}
-.portpolio .hline{ 
-    text-align: center;
-    margin-bottom:60px ;
-}
-.portpolio .hline .hline1{
-    font-weight: 500;
-    font-size: 14px;
-    
-}
-.portpolio .hline .hline2{
-    font-family: 'Abril Fatface', cursive;
-    font-size: 32px; 
-    
-}
-.portpolio .container .row{
-    gap: 40px;
-}
-.portpolio .slide1{
-    height:420px;
-    weight:350px;
-}
-.portpolio .slide2{
-    height:420px;
-    weight:350px ;
-    position: relative;
-}
-.portpolio .slide3{
-    height:420px ;
-    weight:350px ;
-}
-.portpolio .slide1 img{
-    height: 100%;
-    width: 100%;
-}
-.portpolio .slide2 .girlimage{
-    height:420px;
-    width: 350px;
-    padding-bottom: 20px;
-    
-}
-.portpolio .slide3 img{
-    height: 100%;
-    width: 100%;
-}
-.angle{
-    position: absolute;
-    left:320px;
-    bottom: 220px;
-    background: white;
-    padding: 15px 20px;
-    border-radius: 25px;
-    z-index:10; 
-    box-shadow: 0px 5px 5px 0px lightblue;     
-
-}
-.angle2{
-    position: absolute;
-    left:-20px;
-    bottom: 220px;
-    background: white;
-    padding: 15px 20px;
-    border-radius: 25px;
-    z-index: 99;
-    box-shadow: 0px 5px 5px 0px lightblue;
-       
-
-}
-.angle:hover{
-    background: yellow;
-}
-.angle2:hover{
-    background: yellow;
-}
-
-.portpolio .container button{
-    padding: 17px;
-    border-radius: 5px;
-    background:white ;
-    box-shadow: 0px 5px 5px 0px lightblue;
-    font-weight: bold ;
-    border: none;
-    margin: 50px 0 30px 45%; 
-    margin-right:20px;
-    transition: 0.5s;
-
-}
-.portpolio .container button:hover{
-    background: #ffc712;
-
-}
+        #protfolio{
+            padding-top: 100px;
+        }
+        #protfolio .we{
+            font-size: 14px;
+            color: #0f2f44;
+            font-family: 'Ubuntu', sans-serif;
+            text-align: center;
+        }
+        #protfolio h3{
+            font-size: 32px;
+            color: #0f2f44;
+            font-family: 'Abril Fatface', cursive;
+            text-align: center;
+            padding-bottom: 60px;
+        }
+        #protfolio .protfolioitem{
+           width: 30%;
+           margin: 15px;
+           position: relative;
+           cursor: pointer;
+        }
+        #protfolio .overplay{
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            height: auto;
+            position: absolute;
+        }
+        #protfolio .protfolioitem .overplay p{
+            font-size: 20px;
+            text-align: center;
+            background: #ffffff;
+            padding: 15px;
+            opacity: 0;
+            color: #0f2f44;
+            transition: 0.4s;
+        }
+        #protfolio .protfolioitem:hover .overplay p{
+            opacity: 1;
+            cursor: pointer;
+        }
+        #protfolio .protfolioarrowA{
+            position:absolute;
+            height: 50px;
+            width: 50px;
+            border: 1px ;
+            border-radius: 50%;
+            background: #ffffff;
+            top: 50%;
+            left: -25px;
+            background-color: #ffc712;
+            transition: 0.4s;
+        }
+        #protfolio .protfolioarrowA:hover{
+            background-color: #ffffff;
+        }
+        #protfolio .protfolioarrowA span{
+            display: inline-block;
+            line-height: 50px;
+            font-size: 20px;
+            margin-top: 5%;
+            margin-left: 25%;
+        }
+        #protfolio .protfolioarrowB{
+            position:absolute;
+            height: 50px;
+            width: 50px;
+            border: 1px ;
+            border-radius: 50%;
+            background: #ffffff;
+            top: 50%;
+            right: -25px;
+            background-color: #ffc712;
+            line-height: 50px;
+            text-align: center;
+            transition: 0.4s;
+        }
+        #protfolio .protfolioarrowB:hover{
+            background-color: #ffffff;
+        }
+        #protfolio button {
+            display: inline-block;
+            margin: 60px 0px 60px 520px;
+            padding: 17px 20px;
+            border-radius: 12px;
+            border: 0px;
+        }
+        #protfolio button:hover{
+            background-color: #ffc712;
+            box-shadow: 0px 0px;
+            cursor: pointer;
+        }
+        
+        #protfolio button a{
+            font-size: 20px;
+            color: #0f2f44;
+            font-family: 'Ubuntu', sans-serif;
+        }
 
         /* our portpolio ends here */
 
 
         /* our testimolial starts here  */
-.testimonial{
+#testimonial{
     width: 100%;
     height: 445px;
     background-color: #f5f5f5;
     margin-top: 100px;
     color:#0f2f44;
 }
-.testimonial .bigsmall{
+#testimonial .bigsmall{
     text-align: center;
     margin-bottom:60px ;
     padding-top: 60px;
 }
-.testimonial .bigsmall .small{
+#testimonial .bigsmall .small{
     font-weight: 500;
     font-size: 14px;
 }
-.testimonial .bigsmall .big{
+#testimonial .bigsmall .big{
     font-family: 'Abril Fatface', cursive;
     font-size: 32px;
 }
-.testimonial .row{
+#testimonial .row{
     gap: 20px;
 }
 
@@ -613,48 +617,48 @@ nav .menu ul li span{
 
 
         /* our latest blog starts here  */
-.latestblog{
+#latestblog{
     width: 100%;
     height: 700px;
     margin-top: 100px;
 }
-.latestblog .hline{
+#latestblog .hline{
  text-align: center;
  color:#0f2f44 ;
  margin-bottom: 60px;
 }
-.latestblog .hline1{
+#latestblog .hline1{
     font-weight: 500;
     font-size: 14px;
 }
-.latestblog .hline2{
+#latestblog .hline2{
     font-family: 'Abril Fatface', cursive;
     font-size: 32px;
 
 }
-.latestblog .blog1{
+.blog1{
 position: relative;
 height: 475px;
 width: 350px;
 background-color: #f5f5f5;
 
 }
-.latestblog .blog2{
+.blog2{
     position: relative;
     height: 475px;
     width: 350px;
     background-color: #f5f5f5;
 }
-.latestblog .blog3{
+.blog3{
     position: relative;
     height: 475px;
     width: 350px;
     background-color: #f5f5f5;
 }
-.latestblog .row{
+#latestblog .row{
     gap: 45px;
 }
-.latestblog  .pic{
+#latestblog  .pic{
     position: absolute;
     z-index: 1;
     left: 20px;
@@ -703,15 +707,15 @@ background-color: #f5f5f5;
 .blog2:hover{
     background-color: #0f2f44; 
 }
- .blog3:hover{
+.blog3:hover{
     background-color: #0f2f44;
     
 }
 
-.latestblog .blog1:hover{
+#latestblog .blog1:hover{
 
 }
-.latestblog button{
+#latestblog button{
     padding: 17px;
     border-radius: 5px;
     background:white ;
@@ -723,16 +727,133 @@ background-color: #f5f5f5;
     transition: 0.5s;
 
 }
-.latestblog button:hover{
+#latestblog button:hover{
     background: #ffc712;
 
 }
 
 
         /* our latest blog ends here  */
+        #footer{
+            background-color: #e9e9e9;
+            padding: 100px 0px 60px 0px;
+            margin-top: 40px;
+        }
+        #footer .container .fd{
+            gap: 20px;
+            
+        }
+        #footer .footertextA{
+            width: 22%;
+        }
+        #footer .footertextA .footerlogoB img{
+            width: 15px;
+            height: 15px;
+        }
+        #footer .footertextA .footerlogoB ul{
+            margin-top: 20px;
+        }
+        #footer .footertextA .footerlogoB li{
+            width: 30px;
+            height: 30px;
+            border: 1px solid #0f2f44;
+            border-radius: 50%;
+            line-height: 30px;
+            text-align: center;
+            margin-right: 10px ;
+            transition: 0.4s;
+        }
+        #footer .footertextA .footerlogoB ul li:hover{
+            background-color: #0f2f44;
+        }
+        #footer .footerlogoB ul li a{
+            color: #0f2f44;
+        }
+        #footer .footerlogoB ul li:hover a{
+            color: #ffffff;
+        }
+        #footer .footertextA .footerlogoA p{
+            padding: 30px 0px;
+            font-size: 14px;
+            color: #777777;
+        }
+        #footer .contact{
+            width: 22%;
+        }
+        #footer .contact .loadd{
+            display: flex;
+            gap: 10px;
+        }
+        #footer .contact .loadd .footericon{
+            line-height: 62px;
+        }
+        #footer .contact .loadd .footerinfo{
+            line-height: 25px;
+        }
+        #footer .contact .loadd a{
+            color:#777777 ;
+            
+        }
+        #footer .container .row span{
+            margin: 40px 0px;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+        }
 
-.fooder{
-   width: 100%; 
-   height: 250px;
-   margin-top: 100px;
-}
+        /* #footer .footertextB{
+            width: 26 ;
+            padding: 0px 35px;
+        }
+        #footer .container .row span{
+            margin: 40px 0px;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        #footer .footertextB .info{
+            margin-top: 40px;
+        }
+        #footer .footertextB .footericon{
+            width: 10%;
+        }
+        #footer .footertextB .footericon a{
+            
+            margin-top: 45px;
+            color: #777777;
+        }
+        #footer .footertextB .footerinfo{
+            width: 90%;
+        }
+        #footer .footertextB .footerinfo a{
+            
+            padding-top: 30px;
+            font-size: 14px;
+            color: #777777;
+        }*/
+        #footer  address{
+            font-size: 14px;
+            color: #777777;
+            cursor: pointer;
+        }  
+        #footer .footertextC{
+            width: 18%;
+            padding: 0px 35px;
+        }
+        #footer .footertextC ul li{
+            margin: 23px 0px;
+            font-size: 14px;
+            color: #777777;
+            transition: 0.5s;
+        }
+        #footer .footertextC ul li:hover{
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        #footer .footertextD{
+            width: 32%;
+        }
+        #footer .footertextD .footerfilckr img{
+            margin-left: 5px;
+            margin-bottom: 10px;
+
+        }
+
